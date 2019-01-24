@@ -370,8 +370,9 @@ input[type=submit] {
     
   }
   #index{
-    left:15px;
+    left:0px;
     position: relative;
+    width:100%;
   }
   #port{
    
@@ -471,7 +472,7 @@ input[type=submit] {
   }
 
   #index{
-    
+    left:0px;
     line-height: 25px;
   }
   
@@ -483,6 +484,7 @@ input[type=submit] {
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+    left:25%;
   }
   
   .work:nth-child(even) {
@@ -508,9 +510,7 @@ input[type=submit] {
     background: #4aaaa5;
     border-bottom: 0;
   }
-  #port{
-
-  }
+  
   .auth-image {
     float: left;
     width: 90%;
